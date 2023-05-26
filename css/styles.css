@@ -36,7 +36,7 @@ text-decoration: none;
 }
 
 .header-logo span{
-    color: #2E2F42;;
+    color: #2E2F42;
 }
 
 
@@ -51,6 +51,7 @@ text-decoration: none;
     font-size: 16px;
     line-height: 1.5;
     color: var(--title-color);
+    letter-spacing: 0.02em;
 }
 
 
@@ -73,12 +74,10 @@ text-decoration: none;
 
 
 .address-item-link-link {
-    font-weight: 400;
-    font-style: normal;
         font-size: 16px;
-        line-height: 1.5px;
+        line-height: 1.5;
         color: var(--main-text-color);
-        letter-spacing: 0.02em
+        letter-spacing: 0.02em;
 }
 
 
@@ -113,7 +112,7 @@ font-family: inherit;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     cursor: pointer;
-    background-color: var(#4D5AE5);
+    background-color: #4D5AE5;
 }
 
 .hero-btn:hover,
@@ -180,7 +179,7 @@ font-family: inherit;
 }
 
 .team-list {
-    background-color: #FFFFFF;
+background-color: #FFFFFF;
 }
 
 .team-item {}
@@ -242,7 +241,8 @@ font-family: inherit;
 
 }
 
-.btn-all {
+
+.btn {
     font-family: "Roboto", sans-serif;
     color: #4D5AE5;
     font-weight: 500;
@@ -250,81 +250,12 @@ font-family: inherit;
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    background-color:#f4f4fd;
-}
-
-
-
-.btn-web {
-    font-family: "Roboto", sans-serif;
-        color: #4D5AE5;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        cursor: pointer;
-        background-color: #f4f4fd;
-}
-
-.btn-app {
-font-family: "Roboto", sans-serif;
-    color: #4D5AE5;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    cursor: pointer;
     background-color: #f4f4fd;
 }
 
-.btn-design {
-font-family: "Roboto", sans-serif;
-    color: #4D5AE5;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    cursor: pointer;
-    background-color: #f4f4fd;
-}
 
-.btn-marketing {
-font-family: "Roboto", sans-serif;
-    color: #4D5AE5;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    cursor: pointer;
-    background-color: #f4f4fd;
-}
-.btn-all:hover,
-.btn-all:focus{
-    color: #ffffff;
-    background-color: var(--focus-color);
-}
-
-.btn-web:hover,
-.btn-web:focus {
-    color: #ffffff;
-    background-color: var(--focus-color);
-}
-
-.btn-app:hover,
-.btn-app:focus {
-    color: #ffffff;
-    background-color: var(--focus-color);
-}
-
-.btn-design:hover,
-.btn-design:focus {
-    color: #ffffff;
-    background-color: var(--focus-color);
-}
-
-
-.btn-marketing:hover,
-.btn-marketing:focus {
+.btn:hover,
+.btn:focus{
     color: #ffffff;
     background-color: var(--focus-color);
 }
