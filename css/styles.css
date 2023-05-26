@@ -73,11 +73,11 @@ text-decoration: none;
 .address-item {}
 
 
-.address-item-link-link {
-        font-size: 16px;
-        line-height: 1.5;
-        color: var(--main-text-color);
-        letter-spacing: 0.02em;
+.address-item-link link {
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--main-text-color);
+    letter-spacing: 0.02em;
 }
 
 
@@ -179,10 +179,11 @@ font-family: inherit;
 }
 
 .team-list {
-background-color: #FFFFFF;
 }
 
-.team-item {}
+.team-item {
+    background-color: #FFFFFF;
+}
 
 .team-subtitle {
     font-weight: 500;
@@ -276,4 +277,5 @@ background-color: #FFFFFF;
     font-size: 16px;
     line-height: 1.5;
     color: var(--main-text-color);
+    letter-spacing: 0.02em;
 }
