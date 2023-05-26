@@ -8,6 +8,7 @@ body{
 font-family: 'Roboto',
 sans-serif;
 color: var(--main-text-color);
+background-color: #FFFFFF;
 }
 
 
@@ -25,16 +26,17 @@ text-decoration: none;
 
 
 .header-logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;     
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color: var(--title-color);
+    color: #4D5AE5;;
+    text-transform: uppercase;
 }
 
 .header-logo span{
-    color: #4D5AE5;
+    color: #2E2F42;;
 }
 
 
@@ -59,29 +61,37 @@ text-decoration: none;
 }
 
 
-.header-address {}
+.address {
+    font-style: normal;
+}
 
 
-.header-address-item {}
+.address-list{}
 
 
-.header-address-link {
+.address-item {}
+
+
+.address-item-link-link {
     font-weight: 400;
     font-style: normal;
         font-size: 16px;
         line-height: 1.5px;
         color: var(--main-text-color);
+        letter-spacing: 0.02em
 }
 
 
-.header-address-link:hover,
-.header-address-link:focus{
+.address-item-link:hover,
+.address-item-link:focus{
     color: var(--focus-color);
     text-decoration: underline;
 }
 /*-------------HERO-----------------*/
 
-.hero {}
+.hero {
+    background-color: var(--title-color);
+}
 
 
 
@@ -91,6 +101,7 @@ text-decoration: none;
         line-height: 1.07;
         text-align: center;
         color: #FFFFFF;
+        letter-spacing: 0.02em
 }
 
 
@@ -99,13 +110,16 @@ font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    align-items: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     cursor: pointer;
+    background-color: var(#4D5AE5);
 }
 
-
+.hero-btn:hover,
+.hero-btn:focus{
+    background-color: #404BBF;
+}
 /*----------ABOUT US-------------*/
 .about {}
 
@@ -125,7 +139,7 @@ font-family: inherit;
 
 .about-item-text {
     font-size: 16px;
-        line-height: 1,5;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--main-text-color);
 }
@@ -140,6 +154,8 @@ font-family: inherit;
     font-size: 36px;
     line-height: 1.11;
     color: var(--title-color);
+    text-align: center;
+    text-transform: capitalize;
 }
 
 .doing-list {}
@@ -149,16 +165,23 @@ font-family: inherit;
 
 /*---------------TEAM----------------*/
 
-.team {}
+.team {
+    background-color: #F4F4FD;
+}
 
 .team-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     color: var(--title-color);
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
-.team-list {}
+.team-list {
+    background-color: #FFFFFF;
+}
 
 .team-item {}
 
@@ -167,27 +190,35 @@ font-family: inherit;
     font-size: 20px;
     line-height: 1.2;
     color: var(--title-color);
+    letter-spacing: 0.02em;
 }
 
 .team-item-text {
     font-size: 16px;
     line-height: 1.5;
     color: var(--main-text-color);
+    letter-spacing: 0.02em;
 }
 
 /*------------------FOOTER--------------*/
 
+.footer{
+    background-color: var(--title-color)
+}
+
+
 .footer-logo {
-font-family: 'Raleway';
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color: var(--title-color);
+    color: #4D5AE5;
+    text-transform: uppercase;
 }
 
 .footer-logo span {
-    color: #4D5AE5;
+    color: #f4f4fd;
 }
 
 
@@ -195,6 +226,7 @@ font-family: 'Raleway';
     font-size: 16px;
     line-height: 1.5;
     color: #F4F4FD;
+    letter-spacing: 0.02em;
 }
 
 /*--------------SECTION OF BUTTONS-----------------*/
@@ -211,80 +243,96 @@ font-family: 'Raleway';
 }
 
 .btn-all {
+    font-family: "Roboto", sans-serif;
     color: #4D5AE5;
     font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        cursor: pointer;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    background-color:#f4f4fd;
 }
 
+
+
 .btn-web {
-    color: #4D5AE5;
-    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+        color: #4D5AE5;
+        font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
         cursor: pointer;
+        background-color: #f4f4fd;
 }
 
 .btn-app {
+font-family: "Roboto", sans-serif;
     color: #4D5AE5;
     font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        cursor: pointer;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    background-color: #f4f4fd;
 }
 
 .btn-design {
+font-family: "Roboto", sans-serif;
     color: #4D5AE5;
     font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        cursor: pointer;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    background-color: #f4f4fd;
 }
 
 .btn-marketing {
+font-family: "Roboto", sans-serif;
     color: #4D5AE5;
     font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        cursor: pointer;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    background-color: #f4f4fd;
 }
 .btn-all:hover,
 .btn-all:focus{
     color: #ffffff;
+    background-color: var(--focus-color);
 }
 
 .btn-web:hover,
 .btn-web:focus {
     color: #ffffff;
+    background-color: var(--focus-color);
 }
 
 .btn-app:hover,
 .btn-app:focus {
     color: #ffffff;
+    background-color: var(--focus-color);
 }
 
 .btn-design:hover,
 .btn-design:focus {
     color: #ffffff;
+    background-color: var(--focus-color);
 }
 
 
 .btn-marketing:hover,
 .btn-marketing:focus {
     color: #ffffff;
+    background-color: var(--focus-color);
 }
 
 
-/* ------------INFORMATION PORTFOLIO-------------*/
-.info {}
-
-.info-list {}
+.info-list {
+    list-style: none;
+}
 
 .info-item {}
 
