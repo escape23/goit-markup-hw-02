@@ -73,19 +73,21 @@ text-decoration: none;
 .address-item {}
 
 
-.address-item-link link {
+.address-link {
     font-size: 16px;
     line-height: 1.5;
-    color: var(--main-text-color);
     letter-spacing: 0.02em;
+    color: var(--main-text-color);
+    
 }
 
 
-.address-item-link:hover,
-.address-item-link:focus{
+.address-link:hover,
+.address-link:focus{
     color: var(--focus-color);
     text-decoration: underline;
 }
+
 /*-------------HERO-----------------*/
 
 .hero {
