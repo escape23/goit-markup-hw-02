@@ -85,7 +85,6 @@ text-decoration: none;
 .address-link:hover,
 .address-link:focus{
     color: var(--focus-color);
-    text-decoration: underline;
 }
 
 /*-------------HERO-----------------*/
